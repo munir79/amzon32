@@ -1,0 +1,40 @@
+.about2{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 10px;
+    width: 400px;
+    margin-left: 50px;
+   
+   
+}
+.about2 img{
+    height: 100ppx;
+    width: 300px;
+}
+.full2{
+    background-color: rgb(31,29,43);
+padding: 2px;
+border-top: 2px solid white;
+    
+}
+.one2{
+    border: 1px solid red;
+    color: white;
+    border-radius: 10px;
+    transition: box-shadow 2s;
+}
+.one2:hover{
+    box-shadow: 4px 4px 2px 2px white;
+    height:220px ;
+    background-color: chartreuse;
+    color: crimson;
+    
+  
+}
+.full12{
+    height: 400px;
+}
+.team2{
+    color:rgb(59,245,134);
+   padding-left: 5px;
+}

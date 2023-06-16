@@ -1,0 +1,37 @@
+.name{
+    border: 1px solid red;
+    border-radius: 12px;
+    height: 500px;
+    color: white;
+}
+img{
+    height: 250px;
+    width: 300px;
+    border: 1px solid crimson;
+    border-radius: 20px;
+   
+}
+
+.name{
+    color: rgb(59,245,134);
+}
+h5{
+    color: whitesmoke;
+}
+.btn10{
+    background-color:crimson;
+    padding: 7px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight:bold;
+    transition: width 3s;
+}
+.btn10:hover{
+    background-color:yellow;
+    color: black;
+    width:100px ;
+}
+/* .name3{
+    border-bottom: 3px  dotted crimson;
+    border-radius: 20px;
+} */

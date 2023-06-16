@@ -1,0 +1,44 @@
+.header{
+    height: 80px;
+    /* background-color:magenta; */
+    background-color:rgb(31,29,43);
+
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    border: 5px;
+    /* transition: background-color 10s; */
+}
+.header:hover{
+    /* background-color:rgb(240,121,88); */
+    /* background-color: rgb(62,58,114); */
+}
+.header a{
+    color:rgb(59,245,134);
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+    
+}
+
+.header a:hover{
+    color:green;
+}
+ /* .headi{
+    height: 50px;
+    width: 50px;
+} */
+.header img{
+    height: 60px;
+    width: 230px;
+}
+/* .head1{
+    transition: background-color 2s;
+
+}
+.head1:hover{
+   
+    background-color:crimson;
+} */

@@ -1,0 +1,31 @@
+.one{
+    background-color: rgb(31,29,43);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.in1{
+    height: 30px;
+    width: 240px;
+    border: 1px solid red;
+    border-radius: 7px;
+    margin: 7px;
+}
+.in2{
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+}
+h4{
+    color: crimson;
+}
+.btn1{
+    background-color: yellow;
+    padding: 7px;
+    border: 1px solid red;
+    border-radius: 7px;
+    width: 170px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}

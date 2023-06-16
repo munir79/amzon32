@@ -1,0 +1,103 @@
+.head th{
+    padding-left: 250px;
+}
+.head {
+    border-bottom: 3px solid red;
+}
+table{
+    border-bottom: 2 px solid red;
+}
+.cost{
+border: 2px solid green;
+  margin-left: 100px;
+  width: 75%;
+}
+.div1{
+    /* border: 2px solid red;    */
+  
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.cols_4{
+    grid-column:  1/span 4;
+}
+.product_grid{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 10px;
+    color: crimson;
+  
+}
+.remove{
+  /* background-color:rgb(138,142,139); */
+  color: whitesmoke;
+  border: 2px solid crimson;
+  border-radius: 10px;
+}
+.total{
+    /* background-color:rgb(138,142,139); */
+    border: 1px solid red;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(128,127,131,.58);
+    height: 600px;
+    position: sticky;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    margin-top:160px ;
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    
+   
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: gold;
+}
+.div1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-bottom: 3px dotted red;
+    border-radius: 20px;
+}
+.div2{
+    background-color: rgb(31,29,43);
+    padding-top: 4px;
+    border-top: 2px solid white;
+}
+.upp{
+    color:rgb(59,245,134);
+}
+.par{
+ /* justify-content: center;
+ align-items: center; */
+ margin: 160px;
+
+ font-weight: bold;
+ font-size:large;
+ border-bottom: 2px solid red;
+ border-radius: 15px;
+}
+.cost1{
+    color: white;
+}
+.un{
+    border-bottom: 3px dotted crimson;
+    border-radius: 40px;
+ 
+}
+.btn20{
+ margin-top: 70px;
+}

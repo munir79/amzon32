@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(31,29,43);
+    height: 220px;
+  padding-top: 4px;
+  border-top: 3px solid white;
+    justify-content: space-between;
+}
+.fot1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: 2px solid red;
+}

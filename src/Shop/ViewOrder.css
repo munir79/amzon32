@@ -1,0 +1,42 @@
+.flexhobe{
+    display: flex;
+    margin-left: 200px;
+  
+    
+}
+.flexhobe img{
+    height: 120px;
+    width: 120px;
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.service{
+    padding-top: 70px;
+}
+.price{
+
+ padding-top: 0;
+}
+ 
+
+.tad div{
+margin-top: 0;
+margin-left: 230px;
+justify-content: center;
+align-items: center;
+
+}
+.par{
+    margin-top: 0;
+}
+.main {
+    border: 2px solid red;
+    margin-left: 100px;
+    width: 75%;
+    display: flex;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+}
