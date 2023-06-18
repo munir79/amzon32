@@ -1,12 +1,34 @@
 .footer{
     background-color: rgb(31,29,43);
-    height: 220px;
+    height: 420px;
   padding-top: 4px;
   border-top: 3px solid white;
-    justify-content: space-between;
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+}
+.div100 p{
+  color: white;
+  margin-left: 10px;
+  
+}
+.div101{
+  color: rgb(59,245,134);
+  width: 50%;
+  margin-left: 50px;
+}
+.legal{
+  color:white;
+  /* background-color: deepskyblue; */
+  border-radius: 20px;
 }
 .fot1{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    border: 2px solid red;
+  display: flex;
+  
+ 
 }
+/* .fot1{
+    
+    border: 2px solid red;
+} */
