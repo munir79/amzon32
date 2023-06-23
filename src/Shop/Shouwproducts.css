@@ -9,8 +9,15 @@ img{
     width: 300px;
     border: 1px solid crimson;
     border-radius: 20px;
+    transition: height 0.00001s;
+    transition: width 0.00001s;
    
 }
+/* .krew:hover{
+    width: 360px;
+    height: 350px;
+} */
+
 
 .name{
     color: rgb(59,245,134);
@@ -35,3 +42,18 @@ h5{
     border-bottom: 3px  dotted crimson;
     border-radius: 20px;
 } */
+
+
+@keyframes borderAnimation {
+    0%   { border-color:mediumspringgreen; }
+    25%  { border-color: orangered; }
+    50%  { border-color: green; }
+    75%  { border-color: deeppink; }
+    /* 100% { border-color: red; } */
+  }
+  
+  .name {
+    border: 3px solid red;
+    animation: borderAnimation 4s infinite;
+    border-radius: 30px;
+  }

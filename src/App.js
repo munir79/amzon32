@@ -46,7 +46,8 @@ function App() {
       {
         path:'/signup',
         element:<Registar></Registar>
-      },{
+      },
+      {
         path:'/orders',
         element:<Orders></Orders>
       }

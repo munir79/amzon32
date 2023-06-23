@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './sun1-removebg-preview.png'
+import logo from './Logo.svg'
 
 import './Heade.css'
 

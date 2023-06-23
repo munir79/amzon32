@@ -8,8 +8,14 @@ const Shop = () => {
     const products=useLoaderData();
     console.log(products);
     return (
-      <div>
-        <div>
+      
+      
+<div>
+  
+  <div>
+    
+  
+   <div>
         <div className='ShopContainer'>
           <div className='productContainer'>
 
@@ -34,7 +40,9 @@ const Shop = () => {
 
         </div>
         </div>
-      </div>
+  </div>
+</div>
+
         
     );
 };

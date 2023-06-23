@@ -1,15 +1,20 @@
 import React from 'react';
 import './Footer.css'
+import logo from "./Logo.svg"
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-// import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+ 
+
 
 
 const Footer = () => {
     return (
         <div className='footer'>
-        <div className='fot1'>
+     <div>
+     <div className='fot1'>
         <div className='div100'>
             <h4>Content</h4>
             <p>Blog</p>
@@ -24,7 +29,12 @@ const Footer = () => {
             <p> Bussiness</p>
             <p> Sell Your Product</p>
            </div>
+     
+       
         </div>
+        <img className='jakir' src={logo} alt="" />
+     </div>
+
            <div className='legal'>
             <h4> Legal </h4>
             <p> Privacy </p>
@@ -41,8 +51,8 @@ const Footer = () => {
            </div>
            <div>
             <h4>Follow</h4>
-          {/* Facebook:  <FontAwesomeIcon icon={faFacebook} ></FontAwesomeIcon> */}
-        
+            
+    
            </div>
 
        

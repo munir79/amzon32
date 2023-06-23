@@ -1,14 +1,15 @@
 .ShopContainer{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    /* display: grid;
+    grid-template-columns: 4fr 1fr; */
     margin-top: 5px;
     background-color:  rgb(31,29,43);
+   
     
 
 }
 .productContainer{
     display: grid;
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(4,1fr);
 grid-gap: 10px;
 
 
@@ -17,6 +18,5 @@ grid-gap: 10px;
     height: 400px;
    
 }
-
 
 
